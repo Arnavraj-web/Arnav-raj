@@ -2,7 +2,7 @@ from telegram.ext import Updater, CommandHandler
 from price_tracker import add_product, check_prices
 from scheduler import start_scheduler
 
-BOT_TOKEN = 'YOUR_BOT_TOKEN'  # Replace with your actual bot token
+BOT_TOKEN = '7087738263:AAGZCK-AOLB8qF2-ua-Bd070TSV2aj14PMs'  # Replace with your actual bot token
 
 def start(update, context):
     update.message.reply_text("👋 Welcome to the 24x7 Price Tracker Bot!\nUse /track <product link> to track Amazon, Flipkart, or Meesho products.")
